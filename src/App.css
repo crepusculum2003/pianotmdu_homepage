@@ -1,0 +1,226 @@
+header{
+  position: fixed;
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 9998;
+}
+
+
+.Title_container{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0px 0px;
+  border-bottom: double 8px #a4a4a4;
+}
+
+.menu-title {
+  padding: 16px 0;
+  left:80%;
+  width: 48px;
+  height:48px;
+  position: absolute;
+}
+
+.sub-menu {
+  background: white;
+  display: none;
+  position: absolute;
+  margin: 64px 0 0 78%;
+}
+
+.submenu-ul li{
+  border: 1px solid navy;
+  padding: 10px;
+}
+
+.submenu-ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.submenu a {
+  text-decoration: none;
+  color: navy;
+}
+
+.menu:hover .sub-menu {
+  display: block;
+}
+
+
+
+.Title{
+  padding-left: 20%;
+}
+
+.header_flexbox{
+  padding-top:4px;
+  padding-bottom: 4px;
+  display: flex;
+  justify-content: center;
+  border-collapse: collapse;
+}
+
+.header_flexbox button{
+  margin-right: 50px;
+  height: 50px;
+  width: 180px;
+  font-size: 13px;
+  border: 0px #ffffff;
+  background-color: #ffffff;
+}
+
+.header_flexbox button:hover {
+  background: -webkit-gradient(linear, left bottom, left top, from(#fcf0ff), to(#fff3fb));
+  border: 1px solid #ccc;
+  -webkit-box-shadow: inset 1px 1px 1px #fff;
+  box-shadow: inset 1px 1px 1px #fff;
+}
+
+
+.background{
+  width:100%;
+  padding-top:200px ;
+  height: 2000px;
+  background-image: url("pianoprototype.jpg");
+  background-color:rgba(255,255,255,0.8);
+  background-blend-mode:lighten;
+  background-attachment: fixed;
+}
+
+.pagecontainer{
+  height: 100%;
+  margin: 0 8%;
+  background-color: #dddddd;
+}
+
+.article {
+  padding: 20px 30px;
+}
+
+.slider_container{
+  margin: 0 15%;
+  
+}
+
+.gallery1{
+  width: 100%;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  filter: blur(3px);
+}
+
+.Content{
+  font-size: 20px;
+  padding: 50px 100px;
+  opacity: 0;
+  transform: translateX(-40px);
+  transition: .7s;
+  transition-delay: .2s;
+  
+}
+
+.Content h1{
+  font-size: 40px;
+  margin-left: -40px;
+}
+
+.Content ul{
+  padding-left: 60px;
+}
+.Content li{
+  margin-bottom: 5px;
+}
+
+.Content.show{
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.examples{
+font-size: 15px;
+padding-left: 600px;
+}
+
+
+
+
+
+
+.Aboutus_spacer{
+  height: 175px;
+}
+
+
+.description_container{
+  margin: 0 10%;
+  font-size:20px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description_title{
+  padding: 0 10% 0 0;
+  text-align: center;
+  width: 38%;
+  
+}
+
+.forum_archive{
+  margin: 50px 0;
+  display: flex;
+}
+
+.forum_caption{
+  margin: 0 5% 0 0;
+}
+
+.forum_caption button{
+  margin-right: 50px;
+  height: 50px;
+  width: 180px;
+  font-size: 13px;
+  border: 0px #ffffff;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.forum_buttons{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.forum_buttons button{
+  margin-right: 50px;
+  height: 50px;
+  width: 180px;
+  font-size: 13px;
+  border: 0px #ffffff;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.forum_buttons button:hover {
+  background: -webkit-gradient(linear, left bottom, left top, from(#e8e8e8), to(#f3f3f3));
+  border: 1px solid #ccc;
+  -webkit-box-shadow: inset 1px 1px 1px #fff;
+  box-shadow: inset 1px 1px 1px #fff;
+}
+
+
+
+
+
+
+
+
+.form_title{
+  margin-left: 5%;
+  padding-bottom: 8px;
+  width: 450px;
+  border-bottom: 1px solid #000;
+}
