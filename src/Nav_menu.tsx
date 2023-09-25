@@ -8,12 +8,12 @@ const Menu = () => {
         
 
     <div className="menu">
-        <img src={icon} className='menu-title'/>
+        <img src={icon} className='menu-title' alt="menu"/>
         <div className="sub-menu">
             <ul className="submenu-ul">
-                <li><a href="#">Sub Menu1</a></li>
-                <li><a href="#">Sub Menu2</a></li>
-                <li><a href="#">Sub Menu3</a></li>
+                <li><a href="">Sub Menu1</a></li>
+                <li><a href="">Sub Menu2</a></li>
+                <li><a href="">Sub Menu3</a></li>
             </ul>
         </div>
     </div>        

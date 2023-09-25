@@ -1,5 +1,5 @@
 import {useEffect, useState} from 'react';
-import './App.css';
+import '../App.css';
 
 const About_Us = ()=>{
 
@@ -18,7 +18,7 @@ const About_Us = ()=>{
     
     return (
 
-    <div>
+    <div className='render_animation'>
     <div className='Aboutus_spacer'/>
     <div className="description_container">
         <div className='description_title'>

@@ -1,9 +1,9 @@
 
 import {useEffect, useState} from 'react';
-import './App.css';
+import '../App.css';
 import { Splide, SplideTrack, SplideSlide } from "@splidejs/react-splide";
 import '@splidejs/react-splide/css';
-import samplepicture from './pianoprototype.jpg';
+import samplepicture from '../pianoprototype.jpg';
 
 
 const Toppage = () =>{
@@ -18,10 +18,14 @@ const Toppage = () =>{
     });
 
     return(
-        <div>
-        
-          <div className='slider_container'>
-          <Splide
+        <div className='render_animation'>
+          
+          <div className='slider_flexbox'>
+            <div className='slider_title'>
+              <h2>東京医科歯科大学ピアノの会</h2>
+            </div>
+            <div className='slider_container'>
+            <Splide
             hasTrack={false}
             aria-label="introduction"
             options={{
@@ -42,12 +46,14 @@ const Toppage = () =>{
               </SplideSlide>
               <div className='splite__arows'/>
             </SplideTrack>
-          </Splide>
+            </Splide>
+            </div>
           </div>
-      
 
           <div className={`Content ${isVisible ? "show" :""}`}>
             <h1>ようこそ</h1>
+          <div className='frame-background'>
+          <div className='frame'>
             <p>東京医科歯科大学 ピアノの会では様々な活動をしております。</p>
             <ul>
               <li>学外ホールでの演奏会</li>
@@ -62,8 +68,10 @@ const Toppage = () =>{
             </p>
             <br></br>
             <p>twitterも運営しています。</p>
-          
+            
             <a href='https://twitter.com/tmdupiano'>アカウントはこちら</a>
+          </div>
+          </div>
           </div>
         </div>
     )

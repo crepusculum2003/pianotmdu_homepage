@@ -1,11 +1,10 @@
 
 import { useState } from 'react';
-import Toppage from './Toppage';
-import About_Us from './About_us';
+import Toppage from './article/Toppage';
+import About_Us from './article/About_us';
 import Menu from './Nav_menu';
 import './App.css';
-import { JsxElement } from 'typescript';
-import Contact from './Contact';
+import Contact from './article/Contact';
 
 
   const App =() => {
@@ -40,7 +39,7 @@ import Contact from './Contact';
       <title>東京医科歯科大学ピアノの会</title>
       <Menu/>
       <div className='Title_container'>
-      <h2 className='Title'>医科歯科大学ピアノの会</h2>
+      <h2 className='Title'>東京医科歯科大学ピアノの会</h2>
       </div>
       <div className='header_flexbox'>
         <button onClick={Transit_Toppage} className='transits'>Top page</button>

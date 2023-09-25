@@ -1,3 +1,16 @@
+@keyframes render_fadein{
+  0%{
+    opacity: 0;
+    transform: translateY(-60px);
+  }
+
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
 header{
   position: fixed;
   width: 100%;
@@ -5,6 +18,10 @@ header{
   z-index: 9998;
 }
 
+.render_animation{
+  animation-name: render_fadein;
+  animation-duration: 3s;
+}
 
 .Title_container{
   margin-top: 0;
@@ -99,8 +116,24 @@ header{
   padding: 20px 30px;
 }
 
+.slider_flexbox{
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  align-items: center;
+  margin-left: 80px;
+  padding: 0;
+
+}
+
+.slider_flexbox h2{
+  font-size: 30px;
+  letter-spacing: 0.25em;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
 .slider_container{
-  margin: 0 15%;
+  margin: 0 8% 0 12%;
   
 }
 
@@ -113,7 +146,7 @@ header{
 
 .Content{
   font-size: 20px;
-  padding: 50px 100px;
+  padding: 50px 200px;
   opacity: 0;
   transform: translateX(-40px);
   transition: .7s;
@@ -136,6 +169,19 @@ header{
 .Content.show{
   opacity: 1;
   transform: translateX(0);
+}
+
+.frame-background{
+  padding: 8px;
+  background-color: rgb(255, 248, 240);
+  width: 1000px;
+}
+.frame{ 
+  background-image: url("akihure-mu50\,72dpi.png");
+  background-repeat: no-repeat;
+  padding-top: 180px;
+  padding-bottom: 80px;
+  padding-left: 15px;
 }
 
 .examples{
@@ -210,9 +256,6 @@ padding-left: 600px;
   -webkit-box-shadow: inset 1px 1px 1px #fff;
   box-shadow: inset 1px 1px 1px #fff;
 }
-
-
-
 
 
 
