@@ -1,10 +1,10 @@
-
 import { useState } from 'react';
 import Toppage from './article/Toppage';
 import About_Us from './article/About_us';
 import Menu from './Nav_menu';
 import './App.css';
 import Contact from './article/Contact';
+import For_Freshmen from './article/For_Freshmen';
 
 
   const App =() => {
@@ -24,7 +24,7 @@ import Contact from './article/Contact';
   }
 
   const Transit_ForFreshmen =() =>{
-    setStateProp(<p>鋭意製作中であります！！</p>);  	
+    setStateProp(<For_Freshmen/>);  	
     window.scrollTo(0, 0);    
   }
   const Transit_Contact = () => {
@@ -36,13 +36,12 @@ import Contact from './article/Contact';
   return (
   <div className="App">
     <header>
-      <title>東京医科歯科大学ピアノの会</title>
       <Menu/>
       <div className='Title_container'>
-      <h2 className='Title'>東京医科歯科大学ピアノの会</h2>
+      <h1 className='Title'>東京医科歯科大学ピアノの会</h1>
       </div>
       <div className='header_flexbox'>
-        <button onClick={Transit_Toppage} className='transits'>Top page</button>
+        <button onClick={Transit_Toppage}>Top page</button>
         <button onClick={Transit_AboutUs}>About us</button>
         <button onClick={Transit_ForFreshmen}>For freshmen</button>
         <button onClick={Transit_Contact}>Contact</button>

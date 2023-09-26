@@ -1,3 +1,5 @@
+
+
 @keyframes render_fadein{
   0%{
     opacity: 0;
@@ -9,6 +11,7 @@
     transform: translateY(0);
   }
 }
+
 
 
 header{
@@ -69,6 +72,8 @@ header{
 
 .Title{
   padding-left: 20%;
+  font-size: 35px;
+  letter-spacing: 0.08rem;
 }
 
 .header_flexbox{
@@ -83,14 +88,15 @@ header{
   margin-right: 50px;
   height: 50px;
   width: 180px;
-  font-size: 13px;
+  font-size: 16px;
   border: 0px #ffffff;
   background-color: #ffffff;
 }
 
 .header_flexbox button:hover {
-  background: -webkit-gradient(linear, left bottom, left top, from(#fcf0ff), to(#fff3fb));
+  background: -webkit-gradient(linear, left bottom, left top, from(#eeeeeb), to(#fbfbfb));
   border: 1px solid #ccc;
+  border-radius: 5px;
   -webkit-box-shadow: inset 1px 1px 1px #fff;
   box-shadow: inset 1px 1px 1px #fff;
 }
@@ -98,16 +104,16 @@ header{
 
 .background{
   width:100%;
-  padding-top:200px ;
-  height: 2000px;
-  background-image: url("pianoprototype.jpg");
+  padding-top:200px;
+  padding-bottom: 300px;
+  background-image: url("sozai/pianoprototype.jpg");
   background-color:rgba(255,255,255,0.8);
   background-blend-mode:lighten;
   background-attachment: fixed;
 }
 
 .pagecontainer{
-  height: 100%;
+  padding-bottom: 200px;
   margin: 0 8%;
   background-color: #dddddd;
 }
@@ -127,13 +133,28 @@ header{
 }
 
 .slider_flexbox h2{
-  font-size: 30px;
+  font-size: 35px;
+  padding-right: 30px;
+  padding-bottom: 30px;
   letter-spacing: 0.25em;
   writing-mode: vertical-rl;
   text-orientation: upright;
+  word-break: break-all;
+  text-align: center;
+  height: 350px;
+
+  border-right: #000 solid 3px;
+  
+  border-image: 
+  linear-gradient(
+    to top, 
+    #007f84 5%,
+    rgba(0, 127, 132,0.7) 30%, 
+    rgba(0, 127, 132, 0) 75%
+  ) 1 100%;
 }
 .slider_container{
-  margin: 0 8% 0 12%;
+  margin: 0 8% 0 7%;
   
 }
 
@@ -146,7 +167,7 @@ header{
 
 .Content{
   font-size: 20px;
-  padding: 50px 200px;
+  padding: 50px 10%;
   opacity: 0;
   transform: translateX(-40px);
   transition: .7s;
@@ -155,7 +176,9 @@ header{
 }
 
 .Content h1{
+  font-style: italic;
   font-size: 40px;
+  letter-spacing: 0.04em;
   margin-left: -40px;
 }
 
@@ -172,24 +195,39 @@ header{
 }
 
 .frame-background{
-  padding: 8px;
-  background-color: rgb(255, 248, 240);
-  width: 1000px;
+  border-radius: 5px;
+  background-color: #e8e8e8;
+  border-color: #ead999;
+  border-style: outset;
+
+  position: relative;
 }
-.frame{ 
-  background-image: url("akihure-mu50\,72dpi.png");
+
+
+.frame{
+  font-size: 18px;
+  background-image: url("./sozai/frame.png");
+  background-position: center center;
   background-repeat: no-repeat;
-  padding-top: 180px;
-  padding-bottom: 80px;
-  padding-left: 15px;
+  background-size: cover;
+  padding-top: 13%;
+  padding-bottom: 15%;
+  padding-left: 15%;
 }
 
 .examples{
-font-size: 15px;
-padding-left: 600px;
+  position: relative;
+  font-size: 15px;
+  bottom: 5px;
+  left: 60%;
 }
 
-
+.X_logo{
+  width: 48px;
+  position: relative;
+  left: 40px;
+  top: 40px;
+}
 
 
 
@@ -209,15 +247,17 @@ padding-left: 600px;
 }
 
 .description_title{
-  padding: 0 10% 0 0;
+  padding: 0 8% 0 0;
   text-align: center;
-  width: 38%;
-  
+  position: relative;
+  bottom :70px;
+  width: 500px;
 }
 
 .forum_archive{
   margin: 50px 0;
   display: flex;
+  align-items: center;
 }
 
 .forum_caption{
@@ -227,7 +267,7 @@ padding-left: 600px;
 .forum_caption button{
   margin-right: 50px;
   height: 50px;
-  width: 180px;
+  width: 140px;
   font-size: 13px;
   border: 0px #ffffff;
   background-color: #ffffff;
@@ -259,11 +299,44 @@ padding-left: 600px;
 
 
 
+.Forfreshmen_content{
+  margin-top:60px;
+  padding-left:8%;
+  font-size: 20px;
+  width: 80%;
+}
 
+.margin-adjuster{
+  position: relative;
+  bottom: 8px;
+  left:3em;
+}
 
 .form_title{
-  margin-left: 5%;
+  text-indent: 2rem;
+  margin-left: 8%;
   padding-bottom: 8px;
+  font-size: 34px;
   width: 450px;
   border-bottom: 1px solid #000;
+}
+
+.Contact_frame{
+  margin-left: 4%;
+  background-color: #ffffff;
+  letter-spacing: 0.07rem;
+  font-weight: bold;
+  padding: 30px 0 100px 50px;
+}
+
+.contact_container{
+  display: flex;
+  align-items: center;
+}
+
+
+
+.QRCODE{
+  padding-left: 7%;
+  padding-top: 20px;
 }

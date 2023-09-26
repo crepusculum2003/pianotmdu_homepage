@@ -3,8 +3,8 @@ import {useEffect, useState} from 'react';
 import '../App.css';
 import { Splide, SplideTrack, SplideSlide } from "@splidejs/react-splide";
 import '@splidejs/react-splide/css';
-import samplepicture from '../pianoprototype.jpg';
-
+import samplepicture from '../sozai/pianoprototype.jpg';
+import Xlogo from '../sozai/logo_metaX-3.svg';
 
 const Toppage = () =>{
     const [isVisible, setIsVisible] = useState(false);
@@ -51,7 +51,7 @@ const Toppage = () =>{
           </div>
 
           <div className={`Content ${isVisible ? "show" :""}`}>
-            <h1>ようこそ</h1>
+            <h1>Introduction</h1>
           <div className='frame-background'>
           <div className='frame'>
             <p>東京医科歯科大学 ピアノの会では様々な活動をしております。</p>
@@ -66,10 +66,8 @@ const Toppage = () =>{
             <br></br>
             演奏希望の方はお気軽にご相談ください。
             </p>
-            <br></br>
-            <p>twitterも運営しています。</p>
+            <p>X(twitter)も運営しています。<img src={Xlogo} className='X_logo' onClick={() => window.open('https://twitter.com/tmdupiano')}></img></p>
             
-            <a href='https://twitter.com/tmdupiano'>アカウントはこちら</a>
           </div>
           </div>
           </div>
