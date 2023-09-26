@@ -34,7 +34,8 @@ header{
 }
 
 .menu-title {
-  padding: 16px 0;
+  padding: 0 0;
+  top:24px;
   left:80%;
   width: 48px;
   height:48px;
@@ -45,29 +46,28 @@ header{
   background: white;
   display: none;
   position: absolute;
-  margin: 64px 0 0 78%;
+    top:72px;
+    left: calc(80% - 48px);
 }
 
-.submenu-ul li{
-  border: 1px solid navy;
-  padding: 10px;
-}
-
-.submenu-ul{
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.submenu a {
-  text-decoration: none;
-  color: navy;
-}
 
 .menu:hover .sub-menu {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  border-collapse: collapse;
 }
 
+.menu_buttons{
+  background-color: #fff;
+  font-size: 15px;
+  padding: 15px 30px;
+  border: none;
+  box-shadow : 0 0 0 1px black;
+}
+
+.menu_buttons:hover{
+  background-color: aliceblue;
+}
 
 
 .Title{
@@ -110,6 +110,7 @@ header{
   background-color:rgba(255,255,255,0.8);
   background-blend-mode:lighten;
   background-attachment: fixed;
+  background-size: cover;
 }
 
 .pagecontainer{
@@ -269,6 +270,7 @@ header{
   height: 50px;
   width: 140px;
   font-size: 13px;
+  border-radius: 8px;
   border: 0px #ffffff;
   background-color: #ffffff;
   margin-bottom: 20px;
@@ -285,6 +287,7 @@ header{
   height: 50px;
   width: 180px;
   font-size: 13px;
+  border-radius: 8px;
   border: 0px #ffffff;
   background-color: #ffffff;
   margin-bottom: 20px;
@@ -334,9 +337,17 @@ header{
   align-items: center;
 }
 
-
-
 .QRCODE{
   padding-left: 7%;
   padding-top: 20px;
 }
+
+
+@media screen and (min-width:480px) {
+  
+}
+
+
+@media screen and (max-width: 480px) {
+
+ }

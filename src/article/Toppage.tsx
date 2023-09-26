@@ -31,8 +31,8 @@ const Toppage = () =>{
             options={{
               type   : 'loop',
               focus  : 'center',
-              autoplay: true, // 自動再生を有効
-              interval: 3000, // 自動再生の間隔を3秒に設定
+              autoplay: true, 
+              interval: 3000, 
             }}>
             <SplideTrack>
               <SplideSlide>
@@ -66,14 +66,14 @@ const Toppage = () =>{
             <br></br>
             演奏希望の方はお気軽にご相談ください。
             </p>
-            <p>X(twitter)も運営しています。<img src={Xlogo} className='X_logo' onClick={() => window.open('https://twitter.com/tmdupiano')}></img></p>
+            <p>X(twitter)も運営しています。<img src={Xlogo} className='X_logo' onClick={() => window.open('https://twitter.com/tmdupiano')} alt="画像を表示できません"></img></p>
             
           </div>
           </div>
           </div>
         </div>
     )
-} 
+};
 
 
 export default Toppage;

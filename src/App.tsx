@@ -32,11 +32,12 @@ import For_Freshmen from './article/For_Freshmen';
     window.scrollTo(0, 0);
   }
 
+
   
   return (
   <div className="App">
     <header>
-      <Menu/>
+      <Menu setStateProp = {setStateProp}/>
       <div className='Title_container'>
       <h1 className='Title'>東京医科歯科大学ピアノの会</h1>
       </div>

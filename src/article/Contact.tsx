@@ -30,7 +30,7 @@ const Contact = () => {
             <br/>
 
             <p>email: piano.tmdu@gmail.com</p>
-            <p>X (twitter) のDMでもかまいません。<img src={Xlogo} className='X_logo' onClick={() => window.open('https://twitter.com/tmdupiano')}></img></p>
+            <p>X (twitter) のDMでもかまいません。<img src={Xlogo} className='X_logo' onClick={() => window.open('https://twitter.com/tmdupiano')} alt="画像を表示できません"></img></p>
           </div>
         </div>        
 
