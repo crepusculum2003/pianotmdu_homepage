@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import '../App.css';
 import QRcode from '../sozai/QRcode_googleform.png';
 import Xlogo from '../sozai/logo_metaX-3.svg';
+import toon from '../sozai/toon.png';
 
 const Contact = () => {
     const [isVisible, setIsVisible] = useState(false);
@@ -35,17 +36,15 @@ const Contact = () => {
         <h2 className="form_title">お問い合わせ</h2>
         <div className={`Content ${isVisible ? "show" :""}`}>
           <div className="Contact_frame">
-          <div className="contact_container">
-          <a href="https://forms.gle/ZpTh4UZC65jJzWCo6" target="_blank" rel="noopener noreferrer">google form</a>
-          <img src={QRcode} alt="画像を表示できません" className="QRCODE" onClick={() => window.open("https://forms.gle/ZpTh4UZC65jJzWCo6")}></img>
+            <img src={toon} alt="" className="Toonkigou"></img>
+            <img src={QRcode} alt="画像を表示できません" className="QRCODE" onClick={() => window.open("https://forms.gle/ZpTh4UZC65jJzWCo6")}></img>
+            <p className="line"></p>
+            <p className="line"><a href="https://forms.gle/ZpTh4UZC65jJzWCo6" target="_blank" rel="noopener noreferrer" >google form</a></p>
+            <p className="line"></p>   
+            <p className="line">email: piano.tmdu@gmail.com</p>   
+            <p className="line">X (twitter) のDMでもかまいません。<img src={Xlogo} className='X_logos' onClick={() => window.open('https://twitter.com/tmdupiano')} alt="画像を表示できません"></img></p>    
           </div>
-            <br/>
-            <br/>
-
-            <p>email: piano.tmdu@gmail.com</p>
-            <p>X (twitter) のDMでもかまいません。<img src={Xlogo} className='X_logo' onClick={() => window.open('https://twitter.com/tmdupiano')} alt="画像を表示できません"></img></p>
-          </div>
-        </div>        
+        </div>      
 
 
 

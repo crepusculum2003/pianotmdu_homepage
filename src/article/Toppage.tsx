@@ -23,7 +23,7 @@ const Toppage = () =>{
           
           <div className='slider_flexbox'>
             <div className='slider_title'>
-              <h2>東京医科歯科大学ピアノの会</h2>
+              <h1>東京医科歯科大学ピアノの会</h1>
             </div>
             <div className='slider_container'>
             <Splide
@@ -50,23 +50,18 @@ const Toppage = () =>{
           </div>
 
           <div className={`Content ${isVisible ? "show" :""}`}>
-            <h1>Introduction</h1>
+            <h2>Introduction</h2>
           <div className='frame-background'>
           <div className='frame'>
-            <p>東京医科歯科大学 ピアノの会では様々な活動をしております。</p>
-            <ul>
-              <li>学外ホールでの演奏会</li>
-              <li>お茶の水祭での演奏</li>
-              <li>附属病院でのクリスマスコンサート</li>
-		        </ul>
-            <p>ピアノ以外の楽器でも室内楽であればコンサート等で演奏することができます。
-            <br></br>
-            <span className='examples'>ex. バイオリン、フルート、声楽 </span>
-            <br></br>
-            演奏希望の方はお気軽にご相談ください。
-            </p>
-            <p>X(twitter)も運営しています。<img src={Xlogo} className='X_logo' onClick={() => window.open('https://twitter.com/tmdupiano')} alt="画像を表示できません"></img></p>
-            
+          <p>東京医科歯科大学ピアノの会は，東京医科歯科大学学友会に所属しているピアノサークルです。<br/>
+            学内行事などにおいてピアノ演奏の機会を作ることを目的として設立されました。</p>
+          <p>現在、約20名が所属しており、定期演奏会を中心に活動しております。<br/>
+            （活動の詳細は，ホゲホゲをご覧ください。）</p>
+
+          <p>とても自由なサークルです！<br/>演奏会は任意参加で，楽器もピアノに限りません。</p>
+          <p>いつでも会員募集中ですので，所属や学年に関わらず，どなたでもお気軽にご連絡ください。<br/>Contactにお問い合わせフォームがございます。</p>
+          
+          <p>X(twitter)も運営しています。<img src={Xlogo} className='X_logo' onClick={() => window.open('https://twitter.com/tmdupiano')} alt="画像を表示できません"></img></p>
           </div>
           </div>
           </div>
