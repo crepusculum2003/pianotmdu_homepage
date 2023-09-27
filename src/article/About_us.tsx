@@ -67,7 +67,7 @@ const About_Us = ()=>{
     <div className={`Content ${isVisible>= 5 ? "show" :""}`}>
         <div className='forum_archive'>
             <div className='forum_caption'>
-                <button onClick={() =>window.open("*")}>クリスマスコンサート</button>
+                <button onClick={() =>window.open("*")}>クリスマス<br/>コンサート</button>
             </div>
             <div className='forum_buttons'>
                 <button onClick={() =>window.open("https://1fee6d82-f337-4a52-8d73-8b297d18a58b.filesusr.com/ugd/69d501_2333eeef1a2e425d8393e7ff072851f0.pdf")}>2013</button>

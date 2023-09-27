@@ -256,7 +256,7 @@ header{
 }
 
 .forum_archive{
-  margin: 50px 0;
+  margin: 50px 0 0 40px;
   display: flex;
   align-items: center;
 }
@@ -276,11 +276,19 @@ header{
   margin-bottom: 20px;
 }
 
+.forum_caption button:hover {
+  background: -webkit-gradient(linear, left bottom, left top, from(#e8e8e8), to(#f3f3f3));
+  border: 1px solid #ccc;
+  -webkit-box-shadow: inset 1px 1px 1px #fff;
+  box-shadow: inset 1px 1px 1px #fff;
+}
+
 .forum_buttons{
   display: flex;
   align-items: center;
   flex-wrap: wrap;
 }
+
 
 .forum_buttons button{
   margin-right: 50px;
@@ -315,6 +323,33 @@ header{
   left:3em;
 }
 
+
+
+.form_title.Access{
+  font-style: italic;
+  letter-spacing: 0.2rem;
+}
+
+.Access_container{
+  margin-top: 70px;
+  margin-left: 12%;
+  margin-bottom: 150px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.Access_description{
+  font-size: 18px;
+  font-weight: bold;
+  padding-right: 100px;
+  padding-left: 20px;
+  position: relative;
+  top:50px;
+  border-left: #000 2px solid ;
+}
+
+
 .form_title{
   text-indent: 2rem;
   margin-left: 8%;
@@ -326,10 +361,14 @@ header{
 
 .Contact_frame{
   margin-left: 4%;
-  background-color: #ffffff;
+  background-color: #eeeeee;
+  border-radius: 40px;
   letter-spacing: 0.07rem;
   font-weight: bold;
   padding: 30px 0 100px 50px;
+
+  border: #bca553 2px; 
+  border-style: solid;
 }
 
 .contact_container{
