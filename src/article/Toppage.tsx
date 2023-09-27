@@ -3,7 +3,8 @@ import {useEffect, useState} from 'react';
 import '../App.css';
 import { Splide, SplideTrack, SplideSlide } from "@splidejs/react-splide";
 import '@splidejs/react-splide/css';
-import samplepicture from '../sozai/pianoprototype.jpg';
+import content1 from '../sozai/content1.jpg';
+import content2 from '../sozai/article_background.jpg'
 import Xlogo from '../sozai/logo_metaX-3.svg';
 
 const Toppage = () =>{
@@ -36,14 +37,12 @@ const Toppage = () =>{
             }}>
             <SplideTrack>
               <SplideSlide>
-                <img className="gallery1" src={samplepicture} alt="画像を表示できません" />
+                <img className="gallery1" src={content1} alt="画像を表示できません" />
               </SplideSlide>
               <SplideSlide>
-                <img className="gallery1" src={samplepicture} alt="画像を表示できません" />
+                <img className="gallery1" src={content2} alt="画像を表示できません" />
               </SplideSlide>
-              <SplideSlide>
-                <img className="gallery1" src={samplepicture} alt="画像を表示できません" />
-              </SplideSlide>
+
               <div className='splite__arows'/>
             </SplideTrack>
             </Splide>

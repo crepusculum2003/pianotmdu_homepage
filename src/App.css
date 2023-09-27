@@ -106,7 +106,7 @@ header{
   width:100%;
   padding-top:200px;
   padding-bottom: 300px;
-  background-image: url("sozai/pianoprototype.jpg");
+  background-image: url("sozai/article_background.jpg");
   background-color:rgba(255,255,255,0.8);
   background-blend-mode:lighten;
   background-attachment: fixed;
@@ -163,7 +163,7 @@ header{
   width: 100%;
   height: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  filter: blur(3px);
+  
 }
 
 .Content{
