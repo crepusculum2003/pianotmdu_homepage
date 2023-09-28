@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/pianotmdu_homepage/static/css/main.7d594dc0.css",
-    "main.js": "/pianotmdu_homepage/static/js/main.a3d9b3fa.js",
+    "main.css": "/pianotmdu_homepage/static/css/main.ca3f4b31.css",
+    "main.js": "/pianotmdu_homepage/static/js/main.ec374177.js",
     "static/js/787.2736510b.chunk.js": "/pianotmdu_homepage/static/js/787.2736510b.chunk.js",
     "static/media/NotoSerifJP-Bold.otf": "/pianotmdu_homepage/static/media/NotoSerifJP-Bold.630e0a83974ef1cdcd95.otf",
     "static/media/NotoSerifJP-Light.otf": "/pianotmdu_homepage/static/media/NotoSerifJP-Light.cad824dcef4d8abe8ca0.otf",
     "static/media/article_background.jpg": "/pianotmdu_homepage/static/media/article_background.301d51b771cc514efbfd.jpg",
     "static/media/content1.jpg": "/pianotmdu_homepage/static/media/content1.d788176787952d11ce77.jpg",
     "static/media/frame.png": "/pianotmdu_homepage/static/media/frame.d9574c48859ae4322bec.png",
+    "static/media/toon.png": "/pianotmdu_homepage/static/media/toon.dc71c758373765eb71cc.png",
     "index.html": "/pianotmdu_homepage/index.html",
     "static/media/menu_icon.svg": "/pianotmdu_homepage/static/media/menu_icon.a1d206e95d13dabb554623e61c6988e7.svg",
     "static/media/logo_metaX-3.svg": "/pianotmdu_homepage/static/media/logo_metaX-3.ca6cb91c5d5c8846892718f6c71886c4.svg",
-    "main.7d594dc0.css.map": "/pianotmdu_homepage/static/css/main.7d594dc0.css.map",
-    "main.a3d9b3fa.js.map": "/pianotmdu_homepage/static/js/main.a3d9b3fa.js.map",
+    "main.ca3f4b31.css.map": "/pianotmdu_homepage/static/css/main.ca3f4b31.css.map",
+    "main.ec374177.js.map": "/pianotmdu_homepage/static/js/main.ec374177.js.map",
     "787.2736510b.chunk.js.map": "/pianotmdu_homepage/static/js/787.2736510b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d594dc0.css",
-    "static/js/main.a3d9b3fa.js"
+    "static/css/main.ca3f4b31.css",
+    "static/js/main.ec374177.js"
   ]
 }
