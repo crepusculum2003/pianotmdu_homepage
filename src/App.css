@@ -77,7 +77,7 @@ header{
 }
 
 
-@media screen and (min-width:480px) {
+@media screen and (min-width:1000px) {
 
   .Title{
     padding-left: 20%;
@@ -335,15 +335,15 @@ header{
   
   .Forfreshmen_content{
     margin-top:60px;
-    padding-left:8%;
+    padding-left:14%;
     font-size: 20px;
     width: 80%;
   }
   
   .margin-adjuster{
     position: relative;
-    bottom: 8px;
-    left:3em;
+    top: 30px;
+    left:15em;
   }
   
   
@@ -430,13 +430,18 @@ header{
     bottom: 67px;
   }
 
+
+  .googlemap{
+    width:600px; 
+    height: 450px;
+  }
 }
 
 
 
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1000px) {
   header{
     position: fixed;
     top:0px;
@@ -528,9 +533,16 @@ header{
   .description_container{
     padding: 30px 1% 50px 1%;
   }
+
+  .description_title{    
+    border-bottom: 2px solid #000;
+    margin-bottom: 60px;
+  }
   .description_content ul{
     font-size: 14px;
   }
+
+
 
   .forum_caption{
     text-align: center;
@@ -549,8 +561,9 @@ header{
   }
 
   .forum_buttons{
-    padding-left: 3%;
-    text-align: center;
+    padding-left: 15%;
+    padding-top: 30px;
+        
   }
   .forum_buttons button{
     margin-right: 50px;
@@ -563,5 +576,60 @@ header{
     margin-bottom: 20px;
   }
 
+
+
+  .form_title{
+    font-size: 28px;
+    width: 270px;
+    padding: 30px 0 5px 20px;
+    border-bottom: 1px dotted #000;
+  }
+
+  .Forfreshmen_content{
+    margin-top: 60px;
+    padding: 30px 2%;
+    font-size: 18px;
+
+    border-radius: 20px;
+    background-color: #eeeeeb;
+  }
+
+
+
+  .Access_map{
+  text-align: center;
+  }
+  .googlemap{
+    width:90%; 
+    height: 450px;
+  }
+
+  .Toonkigou{
+    display: none;
+  }
+
+  .Access_description{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    font-size: 18px;
+  }
+
+  .QRCODE{
+    width:96px;
+    position: absolute;
+    right: 6%;
+    top:0;
+  }
+  .X_logos{
+    width: 10%;
+    position: relative;
+    top: 50px;
+  }
+
+  .Contact_frame{
+    padding-left: 5%;
+    position: relative;
+  }
 
  }
