@@ -16,6 +16,7 @@
     "react-dom": "^18.2.0",
     "react-ga": "^3.3.1",
     "react-ga4": "^2.1.0",
+    "react-router-dom": "^5.3.4",
     "react-scripts": "^5.0.1",
     "react-slick": "^0.29.0",
     "semantic-ui-css": "^2.5.0",
@@ -52,6 +53,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-router-dom": "^5.3.3",
     "gh-pages": "^6.0.0"
   },
   "homepage": "https://crepusculum2003.github.io/pianotmdu_homepage/"
