@@ -618,8 +618,8 @@ header{
   .QRCODE{
     width:96px;
     position: absolute;
-    right: 6%;
-    top:0;
+    left: 10%;
+    top:130px;
   }
   .X_logos{
     width: 10%;
