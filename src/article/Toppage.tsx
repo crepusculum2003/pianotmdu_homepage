@@ -23,7 +23,7 @@ const Toppage = () =>{
           
           <div className='slider_flexbox'>
             <div className='slider_title'>
-              <h1>東京医科歯科大学ピアノの会</h1>
+              <h1>東京医科歯科大学<br/>ピアノの会</h1>
             </div>
             <div className='slider_container'>
             <Splide
