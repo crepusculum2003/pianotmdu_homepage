@@ -5,7 +5,6 @@ import Menu from './Nav_menu';
 import './App.css';
 import Contact from './article/Contact';
 import For_Freshmen from './article/For_Freshmen';
-import usePageTracking from './useTracking';
 
   const App =() => {
 
@@ -15,27 +14,22 @@ import usePageTracking from './useTracking';
 
   const Transit_Toppage = () => {
     setStateProp(<Toppage/>);
-    usePageTracking();
     window.scrollTo(0, 0);
   }
   
   const Transit_AboutUs = () => {
     setStateProp(<About_Us/>);
-    usePageTracking();  	
     window.scrollTo(0, 0);
   }
 
   const Transit_ForFreshmen =() =>{
-    setStateProp(<For_Freshmen/>); 
-    usePageTracking(); 	
+    setStateProp(<For_Freshmen/>); 	
     window.scrollTo(0, 0);    
   }
   const Transit_Contact = () => {
     setStateProp(<Contact/>);
-    usePageTracking();
     window.scrollTo(0, 0);
   }
-
 
   
   return (
