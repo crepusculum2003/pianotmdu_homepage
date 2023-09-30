@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/pianotmdu_homepage/static/css/main.9ddc9898.css",
-    "main.js": "/pianotmdu_homepage/static/js/main.cffcf489.js",
+    "main.css": "/pianotmdu_homepage/static/css/main.2e1b2648.css",
+    "main.js": "/pianotmdu_homepage/static/js/main.713841a0.js",
     "static/js/787.2736510b.chunk.js": "/pianotmdu_homepage/static/js/787.2736510b.chunk.js",
     "static/media/NotoSerifJP-Bold.woff": "/pianotmdu_homepage/static/media/NotoSerifJP-Bold.f30f1cededf84b2d8997.woff",
     "static/media/NotoSerifJP-Light.woff": "/pianotmdu_homepage/static/media/NotoSerifJP-Light.25ec035e42088ff5fa98.woff",
     "static/media/frame.png": "/pianotmdu_homepage/static/media/frame.8ffd04a78ad1901c8780.png",
+    "static/media/room.jpg": "/pianotmdu_homepage/static/media/room.f1b30d55656282fbb486.jpg",
     "static/media/toon.png": "/pianotmdu_homepage/static/media/toon.dc71c758373765eb71cc.png",
-    "static/media/room.jpg": "/pianotmdu_homepage/static/media/room.4941923d7be5d0d330cf.jpg",
     "static/media/content2.jpg": "/pianotmdu_homepage/static/media/content2.8555049ac1497f1e613a.jpg",
     "static/media/article_background.jpg": "/pianotmdu_homepage/static/media/article_background.47f0b368b71b41363c40.jpg",
+    "static/media/logo256x256.png": "/pianotmdu_homepage/static/media/logo256x256.d2757a1fa29c9fb99a16.png",
     "index.html": "/pianotmdu_homepage/index.html",
     "static/media/menu_icon.svg": "/pianotmdu_homepage/static/media/menu_icon.a1d206e95d13dabb554623e61c6988e7.svg",
     "static/media/logo_metaX-3.svg": "/pianotmdu_homepage/static/media/logo_metaX-3.ca6cb91c5d5c8846892718f6c71886c4.svg",
-    "main.9ddc9898.css.map": "/pianotmdu_homepage/static/css/main.9ddc9898.css.map",
-    "main.cffcf489.js.map": "/pianotmdu_homepage/static/js/main.cffcf489.js.map",
+    "main.2e1b2648.css.map": "/pianotmdu_homepage/static/css/main.2e1b2648.css.map",
+    "main.713841a0.js.map": "/pianotmdu_homepage/static/js/main.713841a0.js.map",
     "787.2736510b.chunk.js.map": "/pianotmdu_homepage/static/js/787.2736510b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ddc9898.css",
-    "static/js/main.cffcf489.js"
+    "static/css/main.2e1b2648.css",
+    "static/js/main.713841a0.js"
   ]
 }
