@@ -31,6 +31,8 @@ header{
   border-bottom: double 8px #a4a4a4;
 }
 
+
+
 .menu-title {
   padding: 0 0;
   top:24px;
@@ -76,9 +78,19 @@ header{
   background-size: cover;
 }
 
+.lastmodified{
+  text-align: right;
+}
+
 
 @media screen and (min-width:1000px) {
-
+  .TMDUpiano_logo{
+    width: 96px;
+    height: 96px;
+    position: absolute;
+    top: 8px;
+    left: 10%;
+  }
   .Title{
     padding-left: 20%;
     font-size: 33px;
@@ -442,6 +454,10 @@ header{
 
 
 @media screen and (max-width: 1000px) {
+  .TMDUpiano_logo{
+
+    display: none;
+  }
   header{
     position: fixed;
     top:0px;
