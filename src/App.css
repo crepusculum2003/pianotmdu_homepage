@@ -71,7 +71,7 @@ header{
 
 .background{
   width: 100%;
-  background-image: url("sozai/article_background.jpg");
+  background-image: url("sozai/article_background.webp");
   background-color:rgba(255,255,255,0.5);
   background-blend-mode:lighten;
   background-attachment: fixed;
@@ -223,7 +223,7 @@ header{
   
   .frame{
     font-size: 17px;
-    background-image: url("./sozai/frame.png");
+    background-image: url("./sozai/frame.webp");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
