@@ -3,10 +3,10 @@ import {useEffect, useState} from 'react';
 import '../App.css';
 import { Splide, SplideTrack, SplideSlide } from "@splidejs/react-splide";
 import '@splidejs/react-splide/css';
-import content1 from '../sozai/room.webp'
+import content1 from '../sozai/room.webp';
 import content2 from '../sozai/content2.webp';
-import content3 from '../sozai/article_background.webp'
-import content4 from '../sozai/poster.webp'
+import content3 from '../sozai/article_background.webp';
+import content4 from '../sozai/poster.webp';
 import Xlogo from '../sozai/logo_metaX-3.svg';
 
 const Toppage = () =>{
@@ -58,6 +58,20 @@ const Toppage = () =>{
           </div>
 
           <div className={`Content ${isVisible ? "show" :""}`}>
+            <h2>Latest news</h2>
+          <div className='news_background'>
+            <p>お茶の水祭72ndにてピアノ演奏会を開催する予定です。近年あまり活動ができていなかった中、
+              こうした場で皆様に演奏をお届けできることを大変嬉しく思います。今後もピアノの会の活動を見届けてもらえたら幸いです。</p>
+              <br/>
+            <p>さて今回は、ベートーヴェンからカプースチン、ディズニー音楽まで多様な時代の音楽を演奏いたします。
+            ピアノの会の復活コンサートとなるこの演奏会、皆様にお楽しみいただけることを願っています。</p>
+            <p className='names'>東京医科歯科大学ピアノの会 会長 山口 修平</p>
+          </div>
+
+
+          </div>
+
+          <div className={`Content ${isVisible ? "show" :""}`}>
             <h2>Introduction</h2>
           <div className='frame-background'>
           <div className='frame'>
@@ -69,7 +83,7 @@ const Toppage = () =>{
           <p>とても自由なサークルです！<br/>演奏会は任意参加で、楽器もピアノに限りません。</p>
           <p>いつでも会員募集中ですので、所属や学年に関わらず、どなたでもお気軽にご連絡ください。<br/>Contactにお問い合わせフォームがございます。</p>
           
-          <p>X(twitter)も運営しています。<img src={Xlogo} className='X_logo' onClick={() => window.open('https://twitter.com/tmdupiano')} alt="画像を表示できません"></img></p>
+          <p>X(twitter)も運営しています。<img src={Xlogo} className='X_logo' onClick={() => window.open('https://twitter.com/tmdu_piano')} alt="画像を表示できません"></img></p>
           </div>
           </div>
           </div>

@@ -56,7 +56,7 @@ import logo from './sozai/logo256x256.png';
         <div className='article'>
             {stateProp}
             <div className='lastmodified'>
-              <p>最終更新日: 2023年10月1日</p>
+              <p>最終更新日: 2023年10月5日</p>
             </div>
         </div>
 
