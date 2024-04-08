@@ -649,7 +649,7 @@ header{
     width:96px;
     position: absolute;
     left: 10%;
-    top:150px;
+    top:250px;
   }
   .X_logos{
     width: 10%;
@@ -662,5 +662,5 @@ header{
     position: relative;
     padding-bottom: 50px;
   }
-
+  
  }

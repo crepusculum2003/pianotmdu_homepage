@@ -41,7 +41,7 @@ const Contact = () => {
             <img src={QRcode} alt="画像を表示できません" className="QRCODE" onClick={() => window.open("https://forms.gle/ZpTh4UZC65jJzWCo6")}></img>
             <p className="line"></p>
             <p className="line"><a href="https://forms.gle/ZpTh4UZC65jJzWCo6" target="_blank" rel="noopener noreferrer" >google form</a></p>
-            <p className="line"></p>   
+            <p className="line"><a href="https://www.instagram.com/tmdupiano?igsh=MXA2bWVmeTd3cnUyag==">Instagram</a></p>   
             <p className="line">email: piano.tmdu@gmail.com</p>   
             <p className="line">X (twitter) のDMでもかまいません。<img src={Xlogo} className='X_logos' onClick={() => window.open('https://twitter.com/tmdu_piano')} alt="画像を表示できません"></img></p>    
             </div>
