@@ -8,7 +8,6 @@ const For_Freshmen = () => {
         <div className='Aboutus_spacer'/>
         <h2 className="form_title">入会希望の方へ</h2>
         <div className="Forfreshmen_content">
-
           <p>いつでも会員募集中ですので、
           <br/>お問い合わせフォームまたはXのダイレクトメッセージより入会希望の旨をお伝えください。
           <br/>フォーム、及び連絡先は"Contact"の欄に記載しております。</p>

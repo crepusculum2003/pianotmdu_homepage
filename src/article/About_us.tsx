@@ -6,12 +6,12 @@ const About_Us = () => {
 
     const toggleVisibility = () => {
 
-     setIsVisible(Math.floor(window.scrollY / 175));
+        setIsVisible(Math.floor(window.scrollY / 175));
     
     }
     
     useEffect(() => {
-      window.addEventListener('scroll', toggleVisibility);
+        window.addEventListener('scroll', toggleVisibility);
     });
     
     return (
