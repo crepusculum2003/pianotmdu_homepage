@@ -9,7 +9,7 @@ import content3 from '../sozai/article_background.webp';
 import content4 from '../sozai/poster.webp';
 import Xlogo from '../sozai/logo_metaX-3.svg';
 
-const Toppage = () =>{
+const Toppage = () => {
     const [isVisible, setIsVisible] = useState(false);
 
     const toggleVisibility = () => {
@@ -38,7 +38,7 @@ const Toppage = () =>{
               interval: 3000, 
             }}>
             <SplideTrack>
-            <SplideSlide>
+              <SplideSlide>
                 <img className="gallery1" src={content1} alt="画像を表示できません" />
               </SplideSlide>
               <SplideSlide>
@@ -50,7 +50,6 @@ const Toppage = () =>{
               <SplideSlide>
                 <img className="gallery1" src={content4} alt="画像を表示できません" />
               </SplideSlide>
-
               <div className='splite__arows'/>
             </SplideTrack>
             </Splide>
@@ -61,16 +60,7 @@ const Toppage = () =>{
             <h2>Latest news</h2>
           <div className='news_background'>
             <p>
-            2024年4月11日(木)に新歓イベントを開催します。
-            ピアノの会に興味のある方は是非お越しください。
-            </p>
-            <ul>
-              <li>日時:2024年4月11日(木)16:00~18:00</li>
-              <li>場所:東京医科歯科大学 湯島キャンパス 5号館4階 第一ゼミナール室</li>
-              <li>内容:活動紹介、グランドピアノ試弾</li>
-            </ul>
-            <p>
-            新歓イベントやピアノの会などに関して気になることがありましたら、XやInstagramのDMや当HPのContact掲載のお問い合わせフォームなどから、お気軽にご連絡ください。
+            いつでも会員募集中ですので、所属や学年に関わらずどなたでもお気軽にご連絡ください。
             </p>
           </div>
 
