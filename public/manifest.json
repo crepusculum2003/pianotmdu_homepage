@@ -1,6 +1,6 @@
 {
   "short_name": "医科歯科ピアノの会",
-  "name": "東京医科歯科大学ピアノの会 ホームページ",
+  "name": "東京科学大学ピアノの会 ホームページ",
   "icons": [
     {
       "src": "tmdupiano.ico",
@@ -18,5 +18,5 @@
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff",
-  "description": "東京医科歯科大学ピアノの会のホームページです。2023年版"
+  "description": "東京科学大学ピアノの会のホームページです。2023年版"
 }
